@@ -1,0 +1,17 @@
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 72vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.label {
+    width: 50vh;
+    margin: auto;
+    font-size: 7vh;
+}
+
+button {
+    width: 15vh;
+}

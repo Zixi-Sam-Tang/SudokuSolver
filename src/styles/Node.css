@@ -1,0 +1,19 @@
+.Node .NodeInput{
+    height: 8vh;
+    width: 8vh;
+    border: solid 0.2rem;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.NodeInput:focus {
+    background-color: #c2fffe;
+    outline: none;
+    text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+}
