@@ -96,10 +96,6 @@ export function Board() {
         setCols([...cols]);
         setBoxes([...boxes]);
         setNodes([...nodes]);
-        console.table(nodes);
-        console.log(rows);
-        console.log(cols);
-        console.log(boxes);
     };
 
     function reset() {
@@ -108,8 +104,6 @@ export function Board() {
         setCols(Array(9).fill(0));
         setBoxes(Array(9).fill(0));
     }
-
-    console.table(nodes);
 
     return(
         <div className="Board">
