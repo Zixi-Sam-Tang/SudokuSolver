@@ -1,10 +1,28 @@
 .Node .NodeInput{
     height: 8vh;
     width: 8vh;
-    border: solid 0.2rem;
     text-align: center;
     font-size: 6vh;
+    padding: 0%;
+    border: solid 0.1rem;
 }
+
+.BoldTop {
+    border-top: solid 0.3rem !important;
+}
+
+.BoldRight {
+    border-right: solid 0.3rem !important;
+}
+
+.BoldBottom {
+    border-bottom: solid 0.3rem !important;
+}
+
+.BoldLeft {
+    border-left: solid 0.3rem !important;
+}
+
 
 .NodeInput:focus {
     background-color: #c2fffe;
