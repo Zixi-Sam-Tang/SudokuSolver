@@ -12,16 +12,16 @@ export function Node({row, col, onChange, val}) {
 
     const getClass = () => {
         let temp = 'NodeInput ';
-        if(row % 3 == 0) {
+        if(row % 3 === 0) {
             temp = temp + 'BoldTop ';
         }
-        if(row == 8) {
+        if(row === 8) {
             temp = temp + 'BoldBottom ';
         }
-        if(col % 3 == 0) {
+        if(col % 3 === 0) {
             temp = temp + 'BoldLeft ';
         }
-        if(col == 8) {
+        if(col === 8) {
             temp = temp + 'BoldRight ';
         }
 
