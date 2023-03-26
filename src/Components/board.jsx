@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Node } from './Node'
-import '../styles/board.css'
+import '../styles/Board.css'
 
 export function Board() {
     const [nodes, setNodes] = useState(initBoard);
